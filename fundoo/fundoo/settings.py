@@ -103,11 +103,11 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'chatdb',
-        'USER': 'admin',
-        'PASSWORD': '*',
-        'HOST': '*',
-        'PORT': '*',
+        'NAME': 'priya_DB',
+        'USER': 'priya',
+        'PASSWORD': 'priyanka',
+        'HOST': 'rds.came8vr5pogg.us-east-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 #sagar kadam
