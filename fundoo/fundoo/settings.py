@@ -103,10 +103,10 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'priya_DB',
+        'NAME': 'My_RDS',
         'USER': 'priya',
         'PASSWORD': 'priyanka',
-        'HOST': 'rds.came8vr5pogg.us-east-1.rds.amazonaws.com',
+        'HOST': 'terraform-20220324191112133400000001.cis0bdhtmmul.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
